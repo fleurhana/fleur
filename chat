@@ -12,14 +12,14 @@
     <style>
         html,
         body {
-            margin: 0;
+            margin-left: 10px;
             font-family: roboto;
-            color: hsl(197, 62%, 32%);
+            color: hsl(260, 72%, 12%);
         }
 
         #chat {
             width: 400px;
-            height: 200px;
+            height: 600px;
             overflow-y: auto;
             display: flex;
             flex-direction: column-reverse;
@@ -44,19 +44,21 @@
         }
 
         #chat li.mod {
-            background-color: hsl(262, 46%, 85%);
-            color: hsl(255, 23%, 29%);
+            padding: 10px;
+            background-color: hsl(260, 20%, 89%);
+            color: hsl(272, 90%, 28%);
           border-radius: 50px;
         }
 
         #chat li.sub {
-            background-color: hsl(262, 46%, 85%);
-            color: hsl(255, 23%, 29%);
+            padding: 10px;
+            background-color: hsl(230, 20%, 89%);
+            color: hsl(242, 90%, 28%);
           border-radius: 50px;
         }
 
         #chat blockquote {
-            font-size: 1.2rem;
+            font-size: 1.8rem;
         }
 
         /* Animation */
