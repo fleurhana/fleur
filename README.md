@@ -39,6 +39,7 @@
             box-sizing: border-box;
             padding: 1rem 10px;
             margin-bottom: 10px;
+            margin-left: 10px;
             border: 0;
             border-radius: 50px;
         }
